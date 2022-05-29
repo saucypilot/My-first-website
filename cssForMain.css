@@ -1,0 +1,52 @@
+:root {
+    font-family: Sans-serif;
+    background-color: #710c04;
+    overflow: auto;
+}
+
+#title area {
+    position: relative;
+}
+
+#Title {
+    text-align: center;
+    height: 100px;
+    color: white;
+    background-color: rgb();
+    height: 50px;
+    margin: 10px;
+}
+
+.content {
+    position:relative;
+    margin-top: 3.5%;
+}
+
+#topParagraph {
+    text-align: center;
+    color: white;
+    background-color: rgb(85, 85, 85);
+    width: 30%;
+    line-height: 1.5em;
+    font-weight: 100;
+
+}
+
+#bottomParagraph {
+    text-align: center;
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    background-color: #efefef;}
+
+#ParentElement {
+    background-color:bisque;
+    width: 50%;
+    margin-left: 10px;
+    position: relative;
+}
+
+#ChildElement {
+    background-color: pink;
+    position: absolute;
+}
