@@ -2,26 +2,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-#flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display:  flex;
 }
 
 /*This section is for the left bar */
-.Left-bar {
+.Left-bar {   
     background-color: #e5f4fa;
     width: 25%;
     height: 100vh;
-    color: white;
     text-align: center;
 }
 
 .Left-bar h4{
-        font-weight: 300;
-        color: rgb(228 228 228);
+    font-weight: 300;
     }
 
 /*This is the content section*/
