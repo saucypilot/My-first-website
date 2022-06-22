@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    display:  flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 /*This section is for the left bar */
@@ -11,6 +13,7 @@ body {
     width: 25%;
     height: 100vh;
     text-align: center;
+    order: 1;
 }
 
 .Left-bar h4{
@@ -20,4 +23,5 @@ body {
 /*This is the content section*/
 .contents {
     font-size: 1em;
+    order: 2;
 }
