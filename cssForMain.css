@@ -6,13 +6,13 @@
 body {
     font-family: sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 /*This section is for the left bar */
 .Left-bar {
-    background-color: #e5f4fa;
+    background-color: #a3d9ef;
     height: 100vh;
     text-align: center;
 }
