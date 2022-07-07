@@ -4,31 +4,38 @@
 }
 
 body {
+  display: block;
+}
+
+.container {
     font-family: sans-serif;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flow-flow: row wrap;
+    align-items: flex-start;
+    box-sizing: border-box;
 }
 
 /*This section is for the left bar */
 .Left-bar {
-    background-color: #a3d9ef;
+    background-color: #e5f4fa;
     height: 100vh;
     text-align: center;
+    positon: fixed ;
 }
 
 .Left-bar h1{
     font-weight: 700;
     padding: 3%;
-    }
-.Left-bar h4{
-    font-weight: 400;
-    padding: 3%;
 }
 
+.Left-bar h4{
+font-weight: 400;
+padding: 3%;
+}
 
 /*This is the content section*/
 .contents {
     margin-left: 2%;
     font-size: 1em;
+    align-self: flex-end;
 }
