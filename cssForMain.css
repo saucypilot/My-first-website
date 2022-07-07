@@ -20,7 +20,7 @@ body {
     background-color: #8edaf8;
     height: 100vh;
     text-align: center;
-    positon: fixed ;
+    positon: fixed;
 }
 
 .Left-bar h1{
@@ -37,5 +37,5 @@ padding: 3%;
 .contents {
     margin-left: 2%;
     font-size: 1em;
-    align-self: flex-end;
+    align-self: center;
 }
