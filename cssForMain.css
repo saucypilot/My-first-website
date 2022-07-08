@@ -19,8 +19,12 @@ body {
 .Left-bar {
     background-color: #8edaf8;
     height: 100vh;
+    width: 35%;
     text-align: center;
     positon: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Left-bar h1{
