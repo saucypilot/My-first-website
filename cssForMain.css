@@ -44,4 +44,11 @@ padding: 3%;
     margin-left: 2%;
     font-size: 1em;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contents > .box {
+    
 }
