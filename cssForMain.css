@@ -46,9 +46,6 @@ padding: 3%;
     align-self: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.contents > .box {
-    
+    height: 100vh;
+    justify-content: space-around;
 }
