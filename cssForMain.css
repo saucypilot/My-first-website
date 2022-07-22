@@ -26,6 +26,11 @@ body {
     justify-content: center;
 }
 
+.Left-bar h1, h4 {
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
 .Left-bar h1{
     font-weight: 700;
     padding: 3%;
@@ -40,14 +45,20 @@ padding: 3%;
 
 .contents {
     margin-left: 2%;
-    font-size: 1em;
-    align-self: center;
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: space-around;
 }
 
-.contents hr {
-    border-color: black;
+.contents h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: .3em;
+    margin-bottom: .5em;
+    width: 80%;
+}
+
+
+.contents p {
+    width: 80%;
 }
